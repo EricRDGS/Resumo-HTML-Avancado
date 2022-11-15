@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="./imagem/Designbolts-Cute-Social-2014-HTML5.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Resumo de tudo</h1>
+    </header>
+
+    <main>
+        <section class="secao-imagens">
+            <h2>Imagens Responsivas 🖼️</h2>
+            <div class="imagens">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="./imagem/paisagem.jpg">
+                    <source media="(min-width: 700px)" srcset="./imagem/paisagem-media.jpg">
+                    <img src="imagem/paisagem-pequeno.jpg" alt="Paisagem">
+                </picture>
+            </div>
+        </section>
+
+        <section class="secao-audio">
+            <h2>Áudio 🎧</h2>
+            <div class="audios">
+                <abbr title="Áudio mp3">
+                    <audio src="audio/audio.mp3" controls></audio>
+                </abbr>
+                <abbr title="Áudio ogg">
+                    <audio src="audio/audio.ogg" controls></audio>
+                </abbr>
+                <abbr title="Áudio wav">
+                    <audio src="audio/audio.wav" controls></audio>
+                </abbr>
+            </div>
+        </section>
+
+        <section class="secao-video">
+            <h2>Vídeos 📹</h2>
+            <video src="src/video/paisagem.mp4" width="500" controls></video>
+        </section>
+
+        <section class="secao-iframe">
+            <h2>Iframes 📽️</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7-IwwvIrawI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+</body>
+</html>
